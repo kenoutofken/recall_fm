@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.navlink {
+    @apply text-slate-600 dark:text-slate-100 font-bold;
+}
+
+.navlink:hover {
+    @apply text-slate-400;
+}
+
+.button {
+    background-color:blue;
+}
