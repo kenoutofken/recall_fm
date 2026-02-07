@@ -1,0 +1,49 @@
+.main {
+  padding: 24px;
+}
+
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+}
+
+.button {
+  padding: 10px 12px;
+}
+
+.feed {
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.content {
+  margin: 0 0 6px 0;
+}
+
+.meta {
+  margin: 0;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.error {
+  color: #ff6b6b;
+}
